@@ -2,8 +2,8 @@
 ;; Emacs configuration is written by Krishna Jani
 
 ;; It includes the configuration of all the different packages that I use, on the other hand if you want to see my keybinds please see keybinds.el they are in a different file because I use Xah Fly Keys
-(straight-use-package 'poet-theme)
-(load-theme 'poet t)
+(straight-use-package 'lavender-theme)
+(load-theme 'lavender t)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
@@ -70,3 +70,5 @@
 (straight-use-package 'vterm)
 
 (straight-use-package 'bongo)
+
+(straight-use-package 'magit)

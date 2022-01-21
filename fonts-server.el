@@ -7,11 +7,11 @@
   (push '(vertical-scroll-bars) default-frame-alist)
   (when (display-graphic-p)
     ;; set default font
-    (set-face-attribute 'default nil :font (font-spec :family "Iosevka" :size 20 :weight 'regular))
+    (set-face-attribute 'default nil :font (font-spec :family "Source Code Pro" :size 16 :weight 'regular))
     ;; Set the fixed pitch face
-    (set-face-attribute 'fixed-pitch nil :font (font-spec :family "Iosevka" :size 20 :weight 'regular))
+    (set-face-attribute 'fixed-pitch nil :font (font-spec :family "Source Code Pro" :size 16 :weight 'regular))
     ;; Set the variable pitch face which is the same for mac and linux
-    (set-face-attribute 'variable-pitch nil :font (font-spec :family "Iosevka Etoile" :size 20 :weight 'regular))
+    (set-face-attribute 'variable-pitch nil :font (font-spec :family "Iosevka Etoile" :size 16 :weight 'regular))
     ;; after org-mode we want to adjust font sizes
     (with-eval-after-load 'org
       (dolist (face '((org-level-1 . 1.3)
